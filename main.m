@@ -9,7 +9,7 @@ addpath(genpath(strcat(current_folder, '/Shared')));
 
 file_names = ["Graphs/Abilene.graphml", "Graphs/Agis.graphml", "Graphs/ATT.graphml", "Graphs/BTNA.graphml", "Graphs/Forthnet.graphml", "Graphs/Geant2012.graphml", "Graphs/Grnet.graphml", "Graphs/Iris.graphml", "Graphs/Navigata.graphml", "Graphs/Nsfnet.graphml", "Graphs/Sanet.graphml", "Graphs/Sprint.graphml", "Graphs/Surfnet.graphml"];
 inputfile = fopen(file_names(11));
-[topology, lat_long, nodenames, mat, P]= importGraphML(file_names(3)); %--Read GML file to find nodes and adjacency matrix-
+[topology, lat_long, nodenames, mat, P]= importGraphML(file_names(5)); %--Read GML file to find nodes and adjacency matrix-
 s = size (mat);
 n = s (1,2);
 disp(n);

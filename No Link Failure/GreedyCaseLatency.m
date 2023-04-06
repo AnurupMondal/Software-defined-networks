@@ -1,3 +1,4 @@
+
 function [controllers, avgLatency] = GreedyCaseLatency(mat, n, nc)
 % mat: adjacency matrix representing the network topology
 % n: number of nodes in the network
